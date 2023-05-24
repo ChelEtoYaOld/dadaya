@@ -13,7 +13,7 @@ class Papa:
 
 
 class Mama(Papa):
-    grade = 8
+    apples = 8
     utility = 0
 
     def about_myself(self):
@@ -33,7 +33,7 @@ misha = Mikrochel()
 print(Back.LIGHTRED_EX + Fore.LIGHTWHITE_EX + "Posle kontrakta")
 print(f'Nu vse hulyaem u menya zarplata {Papa.salary}!')
 print(Style.BRIGHT + Fore.CYAN + "Nu vse go dota!")
-print(f'U menya ocenka {Mikrochel.grade}')
+print(f'Ya ukral u mamy {Mikrochel.apples} yablok')
 print(Style.BRIGHT + Fore.BLUE + "Mama molodec!")
 print(f'Po domu vse {Mama.utility}!')
 print(Style.BRIGHT + Fore.RED + "NEIN SCHEISSE!")
